@@ -17,8 +17,7 @@ public class LoginPagePO {
 
     @FindBy(css = "input[id='login-button']")
     public static WebElement LoginBtn;
- 
-    
+
     
 
  public LoginPagePO(WebDriver rdriver)
@@ -26,22 +25,5 @@ public class LoginPagePO {
      
      ldriver = rdriver;
  }
-
-   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
 }

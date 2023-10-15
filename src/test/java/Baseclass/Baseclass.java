@@ -17,6 +17,11 @@ public String username1= "performance_glitch_user";
 
 public String password1 = "secret_sauce";
 
+
+public String username2= "locked_out_user";
+public String password2= "secret_sauce";
+
+
 public static WebDriver driver;
 
 
