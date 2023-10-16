@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="TEST 1">
+        <classes>
+            <class name="Testcases.TC01_LoginTest">
+                <methods>
+                    <include name="LoginTest"/>
+                    <include name="verifytitle"/>
+                </methods>
+            </class> <!-- Testcases.TC01_LoginTest -->
+        </classes>
+    </test> <!-- saucedemo -->
+
+
+    <test thread-count="5" name="TEST 2">
+        <classes>
+            <class name="Testcases.TC02_AddtocartTest">
+                <methods>
+            <include name="Addtocart_Test"/>
+                </methods>
+            </class> <!-- Testcases.TC01_LoginTest -->
+        </classes>
+    </test> <!-- saucedemo -->
+
+    <test thread-count="5" name="TEST 3">
+        <classes>
+            <class name="Testcases.TC03_SortingTest">
+                <methods>
+                    <include name="Sorting_Test"/>
+                </methods>
+            </class> <!-- Testcases.TC01_LoginTest -->
+        </classes>
+    </test> <!-- saucedemo -->
+
+
+
+</suite> <!-- Default Suite -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Parameter ">
+
+    <test name="Login Valid ">
+        
+        <parameter name="username" value="standard_user"></parameter>
+        <parameter name="password" value="secret_sauce"></parameter>
+        
+        <classes>
+            <class name="DataParameters.Valid_Credentials"></class>
+        </classes>
+    </test>
+
+
+    <test name="InvalidLogin1 ">
+
+        <parameter name="username" value="standard_user"></parameter>
+        <parameter name="password" value="secret_sauce12"></parameter>
+
+        <classes>
+            <class name="DataParameters.Validuser_Invalidpass"></class>
+        </classes>
+    </test>
+
+
+    <test name="InvalidLogin2">
+
+        <parameter name="username" value="standard_user12"></parameter>
+        <parameter name="password" value="secret_sauce"></parameter>
+
+        <classes>
+            <class name="DataParameters.Invaliduser_Validpass"></class>
+        </classes>
+    </test>
+
+
+    <test name="Both Invalid">
+
+        <parameter name="username" value="standard_user123"></parameter>
+        <parameter name="password" value="secret_sauce123"></parameter>
+
+        <classes>
+            <class name="DataParameters.Invalid_Credentials"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
+
+
+
+
+
+
+
