@@ -17,8 +17,8 @@ public class TC03_SortingTest extends Baseclass
     public void Sorting_Test() throws InterruptedException {
 
 
-    TC01_LoginTest log1 = new TC01_LoginTest();
-    log1.LoginTest();
+   // TC01_LoginTest log1 = new TC01_LoginTest();
+   // log1.LoginTest();
 
     Thread.sleep(2000);
    //TC02_AddtocartTest add = new TC02_AddtocartTest();

@@ -20,6 +20,7 @@ public void LoginTest  () throws InterruptedException {
         Thread.sleep(2000);
 
         LoginPagePO.inputPassword.sendKeys(password);
+        Thread.sleep(2000);
 
         LoginPagePO.LoginBtn.click();
 
