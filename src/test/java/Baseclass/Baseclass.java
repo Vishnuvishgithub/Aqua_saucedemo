@@ -14,7 +14,6 @@ public String  username="standard_user";
 public String password = "secret_sauce";
 
 public String username1= "performance_glitch_user";
-
 public String password1 = "secret_sauce";
 
 

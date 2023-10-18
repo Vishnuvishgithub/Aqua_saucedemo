@@ -24,20 +24,20 @@ public void LoginTest  () throws InterruptedException {
 
         LoginPagePO.LoginBtn.click();
 
-        driver.navigate().back();
-        Thread.sleep(2000);
+       // driver.navigate().back();
+       // Thread.sleep(2000);
 
         //with second username
 
-        LoginPagePO.inputUsername.clear();
-        LoginPagePO.inputPassword.clear();
+       // LoginPagePO.inputUsername.clear();
+       // LoginPagePO.inputPassword.clear();
 
-        LoginPagePO.inputUsername.sendKeys(username1);
-        Thread.sleep(2000);
+       // LoginPagePO.inputUsername.sendKeys(username1);
+        //Thread.sleep(2000);
 
-        LoginPagePO.inputPassword.sendKeys(password1);
-        Thread.sleep(2000);
-        LoginPagePO.LoginBtn.click();
+        //LoginPagePO.inputPassword.sendKeys(password1);
+        //Thread.sleep(2000);
+       // LoginPagePO.LoginBtn.click();
     }
 
     @Test

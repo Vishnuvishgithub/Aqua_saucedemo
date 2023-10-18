@@ -15,8 +15,8 @@ public class TC02_AddtocartTest extends Baseclass {
 
     public void Addtocart_Test() throws InterruptedException {
 
-        //  TC01_LoginTest log=new TC01_LoginTest();
-        //  log. LoginTest();
+         // TC01_LoginTest log=new TC01_LoginTest();
+         // log. LoginTest();
 
         PageFactory.initElements(driver, AddtocartPO.class);
 

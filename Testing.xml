@@ -8,7 +8,7 @@
                     <include name="LoginTest"/>
                     <include name="verifytitle"/>
                 </methods>
-            </class> <!-- Testcases.TC01_LoginTest -->
+            </class>
         </classes>
     </test> <!-- saucedemo -->
 
@@ -19,7 +19,7 @@
                 <methods>
             <include name="Addtocart_Test"/>
                 </methods>
-            </class> <!-- Testcases.TC01_LoginTest -->
+            </class>
         </classes>
     </test> <!-- saucedemo -->
 
@@ -29,7 +29,30 @@
                 <methods>
                     <include name="Sorting_Test"/>
                 </methods>
-            </class> <!-- Testcases.TC01_LoginTest -->
+            </class>
+        </classes>
+    </test> <!-- saucedemo -->
+
+
+    <test thread-count="5" name="TEST 4">
+        <classes>
+            <class name="Testcases.TC04_MenuClick">
+                <methods>
+                    <include name="Sorting_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- saucedemo -->
+
+
+
+    <test thread-count="5" name="TEST 5">
+        <classes>
+            <class name="Testcases.TC05_Logout">
+                <methods>
+                    <include name="Sorting_Test"/>
+                </methods>
+            </class>
         </classes>
     </test> <!-- saucedemo -->
 
